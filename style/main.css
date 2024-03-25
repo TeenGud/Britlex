@@ -21,6 +21,61 @@ h1, h2, h3, h4, h5, h6, p, li {
     padding: 0 30px;
     margin: 0 auto;
 }
+/* nav  */
+.nav {
+}
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 69px 101px 0;
+}
+.nav__inner-logo {
+}
+.nav__inner-logo-img {
+}
+.nav__inner-links {
+    display: flex;
+    gap: 40px;
+    padding-top: 2px;
+    /* padding-right: 158px; */
+}
+.nav__inner-links-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #263238;
+    list-style: none;
+    text-decoration: none;
+    transition: .2s;
+}
+.nav__inner-links-link:nth-child(1) {
+    margin-left: 13px;
+}
+.nav__inner-links-link:nth-child(2) {
+    padding-right: 4px;
+}
+.nav__inner-links-link:hover {
+    opacity: 0.8;
+}
+.nav__inner-button {
+}
+.nav__inner-button-btn {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+
+    border: 2px solid #263238;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 220px;
+    height: 70px;
+    transition: .2s;
+    margin-top: -14px;
+}
+.nav__inner-button-btn:hover {
+    opacity: 0.7;
+}
 
 /* skills */
 .skills {
