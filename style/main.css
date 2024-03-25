@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --font-family: "Poppins", sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, li {
+    margin: 0;
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* skills */
+.skills {
+    padding: 50px 0;
+}
+.skills-h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #000;
+}
+.skills__grid {
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "one two three" 
+    "one four four";
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.skills__grid-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.speaking {
+    grid-area: one;
+}
+.skills__grid-img img {
+    max-width: 100%;
+}
+.skills__grid-img1 {
+}
+.skills__grid-content {
+}
+.skills__grid-content-h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 267%;
+    color: #263238;
+}
+.skills__grid-content-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #8f95a5;
+}
+.skills__grid-content-button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+
+    border-radius: 5px;
+    width: 230px;
+    height: 60px;
+    background-color: #263238;
+    transition: .2s all;
+}
+.skills__grid-content-button:hover {
+    opacity: 0.8;
+}
+.writing {
+    grid-area: two;
+}
+.skills__grid-img2 {
+}
+.reading {
+    grid-area: three;
+}
+.skills__grid-img3 {
+}
+.listening {
+    grid-area: four;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.listening .skills__grid-img {
+    order: 1;
+}
+.skills__grid-img4 {
+}
+
+
+@media screen and (max-width:992px){
+
+}
+@media screen and (max-width:767px){
+
+    
+}
+@media screen and (max-width:575px){
+    .skills__grid {
+        grid-template-areas: 
+        "one two" 
+        "three four";
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+    .listening {
+        display: block;
+    }
+    
+}
+@media screen and (max-width:320px){
+    .skills__grid {
+        grid-template-areas: 
+        "one" 
+        "two"
+        "three"
+        "four";
+        justify-content: space-evenly;
+        align-items: stretch;
+    }
+    
+}
