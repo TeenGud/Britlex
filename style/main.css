@@ -270,6 +270,64 @@ h1, h2, h3, h4, h5, h6, p, li {
 .skills__grid-img4 {
 }
 
+/* about-us */
+.about-us {
+}
+.about-us__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 242px 101px 0;
+}
+.about-us__left {
+}
+.about-us__left-h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #000;
+}
+.about-us__left-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+    padding-top: 22px;
+    max-width: 635px;
+}
+.about-us__numbers {
+    display: flex;
+    padding-top: 37px;
+}
+.about-us__numbers-item {
+    padding-right: 143px;
+    text-align: center;
+}
+.about-us__numbers-item:nth-child(2) {
+    padding-right: 87px;
+
+}
+.about-us__numbers-item-num {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #2a3246;
+}
+.about-us__numbers-item-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+}
+.about-us__right {
+    margin-top: -33px;
+    padding-right: 9px;
+}
+.about-us__right-img {
+
+}
+
 
 @media screen and (max-width:992px){
 
