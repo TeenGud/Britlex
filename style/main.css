@@ -327,7 +327,136 @@ h1, h2, h3, h4, h5, h6, p, li {
 .about-us__right-img {
 
 }
+/* pricing */
+.pricing {
+    padding-top: 182px;
+}
+.pricing-h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    color: #000;
+    text-align: center;
+}
+.pricing__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 100px;
+}
+.pricing__item {
+    text-align: start;
+}
+.pricing__item:nth-child(2) .pricing__item-h4{
+    padding-top: 36px;
+    padding-left: 19px;
 
+}
+.pricing__item:nth-child(2) .pricing__item-p{
+    padding-top: 23px;
+    padding-left: 20px;
+
+}
+.pricing__item:nth-child(2) .pricing__item-img{
+    padding-left: 16px;
+    margin-top: -6px;
+}
+
+.pricing__item:nth-child(3) .pricing__item-h4{
+    padding-top: 6px;
+    padding-left: 0px;
+    margin-right: 10px;
+
+}
+.pricing__item:nth-child(3) .pricing__item-p{
+    padding-top: 23px;
+    margin-right: 2px;
+
+}
+.pricing__item:nth-child(3) .pricing__item-img{
+    padding-left: 39px;
+    margin-top: -32px;
+}
+.pricing__item-img {
+    padding-left: 26px;
+    margin-top: -32px;
+}
+.pricing__item-h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color: #263238;
+    text-align: center;
+    text-align: start;
+    padding-top: 35px;
+}
+.pricing__item-p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #8f95a5;
+    max-width: 425px;
+    padding-top: 19px;
+}
+.pricing__item-p_new {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+}
+.accent {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #546269;
+}
+.pricing__item-nums {
+    display: flex;
+    background-color: #eee;
+    border-radius: 5px;
+    width: 240px;
+    height: 45px;
+    align-items: center;
+    margin-top: 24px;
+    padding-left: 26px;
+}
+.pricing__item-nums-num {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+    padding-right: 13px;
+}
+.pricing__item-nums-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #546269;
+}
+.pricing__item:nth-child(2) .pricing__item-nums{
+    margin-top: 56px;
+    margin-left: 21px;
+    padding-left: 20px;
+
+}
+.pricing__item:nth-child(3) .pricing__item-nums{
+    margin-top: 52px;
+    margin-left: 1px;
+    padding-left: 16px;
+
+}
+
+.pricing__item:nth-child(2) .pricing__item-nums-text{
+    margin-right: 4px;
+    margin-bottom: 3px;
+
+}
+.pricing__item:nth-child(3) .pricing__item-nums-text{
+    margin-right: 4px;
+    margin-bottom: 3px;
+
+}
 
 @media screen and (max-width:992px){
 
