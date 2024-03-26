@@ -485,7 +485,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 .section__right-p {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #8f95a5;
     padding-top: 35px;
     padding-left: 110px;
@@ -518,6 +518,55 @@ h1, h2, h3, h4, h5, h6, p, li {
     width: 264px;
     height: 80px;
     background-color: #263238;
+    /* margin-top: 30px; */
+}
+
+/* footer  */
+.footer {
+    margin-bottom: 70px;
+}
+.footer__hr {
+    margin-top: 125px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left {
+    padding-top: 24px;
+}
+.footer__left-text1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #000;
+}
+.footer__left-text2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    color: #939393;
+}
+.footer__right {
+    display: flex;
+    padding-top: 46px;
+    margin-right: -4px;
+}
+.footer__right-a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #8f95a5;
+    text-decoration: none;
+}
+.footer__right-dot {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #8f95a5;
+}
+.new {
+    padding: 0 131px;
 }
 
 
