@@ -666,7 +666,7 @@ h1, h2, h3, h4, h5, h6, p, li {
         margin-left: 100px;
     }
 }
-@media screen and (max-width:575px){
+@media screen and (max-width:576px){
     .skills__grid {
         grid-template-areas: 
         "one two" 
@@ -677,7 +677,27 @@ h1, h2, h3, h4, h5, h6, p, li {
     .listening {
         display: block;
     }
-    
+    .writing{
+        padding-top: 300px;
+        max-height: 1000px;
+    }
+    .writing .skills__grid-img2 {
+        padding-bottom: 76px;
+        margin-top: -220px;
+    }
+    .writing .skills__grid-content-p {
+        padding-bottom: 238px;
+    }
+    .listening {
+        height: auto;
+        max-height: 1000px;
+    }
+    .listening .skills__grid-content-h3 {
+        margin-top: -45px;
+    }
+    .skills__grid {
+        padding-left: 305px;
+    }
 }
 @media screen and (max-width:320px){
     .skills__grid {
