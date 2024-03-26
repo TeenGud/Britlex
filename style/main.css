@@ -59,6 +59,9 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 .nav__inner-button {
 }
+.nav__inner-button-burger {
+    display: none
+}
 .nav__inner-button-btn {
     font-family: var(--font-family);
     font-weight: 400;
@@ -637,8 +640,31 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
 }
 @media screen and (max-width:767px){
+    .skills-h2 {
+        margin-left: 210px;
+    }
+    .pricing-h2 {
+        margin-left: 210px;
+    }
+    .new {
+        margin-left: 280px;
+    }
+    .nav__inner-links {
+        display: none;
+    }
+    .nav__inner-button-btn {
+        display: none
+    }
+    .nav__inner {
+        gap: 853px;
+    }
 
-    
+    .nav__inner-button-burger {
+        display: block;
+    }
+    .nav__inner-button-burger {
+        margin-left: 100px;
+    }
 }
 @media screen and (max-width:575px){
     .skills__grid {
