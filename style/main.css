@@ -628,6 +628,13 @@ h1, h2, h3, h4, h5, h6, p, li {
     .footer__left {
         padding-top: 45px;
     }
+    .about-us__left {
+        margin-right: -20px;
+        margin-left: -30px;
+    }
+    .pricing__inner {
+        padding: 90px 70px;
+    }
 }
 @media screen and (max-width:767px){
 
