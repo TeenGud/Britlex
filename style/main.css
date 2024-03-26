@@ -571,7 +571,63 @@ h1, h2, h3, h4, h5, h6, p, li {
 
 
 @media screen and (max-width:992px){
-
+    .nav__inner {
+        justify-content: space-between;
+        gap: 142px;
+        padding: 69px 30px 0;
+    }
+    .learn__inner {
+        gap: 80px;
+    }
+    .learn__right-img {
+        width: 600px;
+    }
+    .learn__left-h1 {
+        width: 400px
+    }
+    .learn__right-img {
+        margin-top: 30px;
+    }
+    .nav__inner-logo-img {
+        margin-right: 30px;
+    }
+    .skills-h2 {
+        padding-left: 314px;
+    }
+    .skills__grid {
+        padding-left: 168px;
+    }
+    .pricing-h2 {
+        padding-left: 334px;
+    }
+    .pricing__item:nth-child(2) .pricing__item-p {
+        margin-top: 46px;
+    }
+    .pricing__item:nth-child(3) .pricing__item-p {
+        margin-top: 46px;
+    }
+    .pricing__item:nth-child(2) .pricing__item-nums {
+        margin-top: 87px;
+    }
+    .pricing__item:nth-child(3) .pricing__item-nums {
+        margin-top: 87px;
+    }
+    .section__right-form-button {
+        margin-top: 30px;
+    }
+    .footer {
+        margin: 0 auto;
+    }
+    .footer__left {
+        margin-right: 50px;
+    }
+    .new {
+        margin-left: 170px;
+        padding: 0 0;
+    }
+    .footer__left {
+        padding-top: 45px;
+    }
 }
 @media screen and (max-width:767px){
 
