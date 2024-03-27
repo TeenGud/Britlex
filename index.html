@@ -3,12 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <link rel="stylesheet" href="style/main.css">
     <title>Britlex</title>
 </head>
 <body>
+    <ul id="slide-out" class="sidenav">
+        <li class="li_new"><span class="footer__left-text1">Brit</span><span class="footer__left-text2">lex</span><a href="#!" class="sidenav-close a-close"><i class="material-icons">close</i></a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect new-link" href="#!">Home</a></li>
+        <li><a class="waves-effect new-link" href="#!">Skills</a></li>
+        <li><a class="waves-effect new-link" href="#!">About Us</a></li>
+        <li><a class="waves-effect new-link" href="#!">Pricing</a></li>
+        <li><a class="waves-effect new-link" href="#!">Contacts</a></li>
+        <button class="nav__inner-button-btn new-btn">Let’s Talk</button>
+    </ul>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
     <!-- nav  -->
-    <nav class="nav">
+    <section class="nav">
         <div class="container">
             <div class="nav__inner">
                 <div class="nav__inner-logo">
@@ -23,11 +38,11 @@
                 </div>
                 <div class="nav__inner-button">
                     <button class="nav__inner-button-btn">Let’s Talk</button>
-                    <img class="nav__inner-button-burger" src="img/burger.svg" alt="">
+                    <a href="" data-target="slide-out" class="sidenav-trigger"><img class="nav__inner-button-burger" src="img/burger.svg" alt=""></a>
                 </div>
             </div>
         </div>
-    </nav>
+    </section>
 
     <!-- learn -->
     <section class="learn">
@@ -197,5 +212,7 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

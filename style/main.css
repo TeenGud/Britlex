@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h6, p, li {
         padding: 90px 70px;
     }
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     .skills-h2 {
         margin-left: 210px;
     }
@@ -651,6 +651,9 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
     .nav__inner-links {
         display: none;
+    }
+    ul .nav__inner-button-btn {
+        display: block;
     }
     .nav__inner-button-btn {
         display: none
@@ -664,6 +667,18 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
     .nav__inner-button-burger {
         margin-left: 100px;
+    }
+    .li_new {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .new-btn {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .a-close {
+        margin-left: 170px;
+        margin-top: -55px;
     }
 }
 @media screen and (max-width:576px){
@@ -697,6 +712,27 @@ h1, h2, h3, h4, h5, h6, p, li {
     }
     .skills__grid {
         padding-left: 305px;
+    }
+    .sidenav {
+        width: 100%;
+    }
+    .sidenav li a {
+        font-size: 40px;
+    }
+    .new-btn {
+        width: 400px;
+        margin-left: 310px;
+    }
+    .new-link {
+        margin-bottom: 40px;
+    }
+    .li_new {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .a-close {
+        margin-left: 1160px;
+        margin-top: -55px;
     }
 }
 @media screen and (max-width:321px){
@@ -793,6 +829,10 @@ h1, h2, h3, h4, h5, h6, p, li {
         "four";
         justify-content: space-evenly;
         align-items: stretch;
+    }
+    .a-close {
+        margin-left: 1000px;
+        margin-top: -55px;
     }
     
 }
