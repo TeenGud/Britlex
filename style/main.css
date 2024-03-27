@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6, p, li {
     padding: 0 30px;
     margin: 0 auto;
 }
+.container2 {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
 /* nav  */
 .nav {
 }
@@ -88,6 +94,7 @@ h1, h2, h3, h4, h5, h6, p, li {
     display: flex;
     justify-content: space-around;
     padding: 100px 19px 0;
+    flex-wrap: wrap;
 }
 .learn__left {
 }
@@ -534,6 +541,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 .footer__inner {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 .footer__left {
     padding-top: 24px;
@@ -571,12 +579,57 @@ h1, h2, h3, h4, h5, h6, p, li {
 .new {
     padding: 0 131px;
 }
+@media screen and (max-width:1300px){
+    .about-us__right-img {
+        width: 300px;
+    }
+    .pricing__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing__item-nums {
+        margin-bottom: 10px;
+    }
+    .footer__left {
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width:1190px){
+    .nav__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav__inner-logo {
+        padding-right: 30px;
+    }
+    .learn__right-img {
+        width: 400px;
+    }
+    .nav__inner-button {
+        margin-top: 40px;
+    }
+    .nav__inner-links {
+        padding-right: 30px;
+    }
+    .container2 {
+        padding: 0;
+    }
+    .skills__grid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about-us__inner {
+        flex-wrap: wrap;
+    }
+    .section__left-img {
+        width: 300px;
+    }
 
-
+}
 @media screen and (max-width:992px){
     .nav__inner {
         justify-content: space-between;
-        gap: 142px;
+        gap: 0px;
         padding: 69px 30px 0;
     }
     .learn__inner {
@@ -598,7 +651,12 @@ h1, h2, h3, h4, h5, h6, p, li {
         padding-left: 314px;
     }
     .skills__grid {
-        padding-left: 168px;
+        /* padding-left: 168px; */
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .skills-h2 {
+        padding-left: 0;
     }
     .pricing-h2 {
         padding-left: 334px;
@@ -625,8 +683,7 @@ h1, h2, h3, h4, h5, h6, p, li {
         margin-right: 50px;
     }
     .new {
-        margin-left: 170px;
-        padding: 0 0;
+        padding: 0 20px;
     }
     .footer__left {
         padding-top: 45px;
@@ -638,6 +695,22 @@ h1, h2, h3, h4, h5, h6, p, li {
     .pricing__inner {
         padding: 90px 70px;
     }
+    .skills__grid-content-button {
+        width: 120px;
+    }
+    .about-us__left-p {
+        width: auto;
+    }
+    .about-us__inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pricing-h2 {
+        padding-left: 0;
+    }
+    .section__inner {
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width:768px){
     .skills-h2 {
@@ -647,7 +720,6 @@ h1, h2, h3, h4, h5, h6, p, li {
         margin-left: 210px;
     }
     .new {
-        margin-left: 280px;
     }
     .nav__inner-links {
         display: none;
@@ -659,7 +731,8 @@ h1, h2, h3, h4, h5, h6, p, li {
         display: none
     }
     .nav__inner {
-        gap: 853px;
+        gap: 0px;
+        align-items: center;
     }
 
     .nav__inner-button-burger {
@@ -680,6 +753,64 @@ h1, h2, h3, h4, h5, h6, p, li {
         margin-left: 170px;
         margin-top: -55px;
     }
+    .nav__inner-button {
+        margin-top: 0px;
+    }
+    .skills-h2 {
+        margin-left: 0;
+    }
+    .skills__grid-img1 {
+        width: 140px;
+    }
+    .skills__grid-item {
+        padding: 0 10px;
+    }
+    .about-us__left-p {
+        width: 400px;
+    }
+    .pricing-h2 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .about-us__right-img {
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:671px){
+    .learn__right-img {
+        width: 300px;
+    }
+    .learn__left-h1 {
+        font-size: 40px;
+        width: auto;
+    }
+    .learn__left-p {
+        font-size: 18px;
+    }
+    .learn__left-button {
+        width: 300px;
+    }
+    .skills__grid-content-button {
+        height: 40px;
+    }
+    .pricing-h2 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .section__right-h2 {
+        padding-left: 0;
+    }
+    .section__right-p {
+        padding-left: 0;
+    }
+    .section__right-form {
+        padding-left: 0;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+
+
 }
 @media screen and (max-width:576px){
     .skills__grid {
@@ -711,7 +842,7 @@ h1, h2, h3, h4, h5, h6, p, li {
         margin-top: -45px;
     }
     .skills__grid {
-        padding-left: 305px;
+        /* padding-left: 305px; */
     }
     .sidenav {
         width: 100%;
@@ -734,92 +865,117 @@ h1, h2, h3, h4, h5, h6, p, li {
         margin-left: 1160px;
         margin-top: -55px;
     }
-}
-@media screen and (max-width:321px){
+    .new-link:first-child {
+        margin-top: 25px;
+    }
     br {
         display: none;
     }
-    .learn__inner {
-        flex-wrap: wrap;
-        padding-left: 314px;
-    }
-    .learn__right-img {
-        width: 1000px;
-    }
-    .learn__right-img {
-        margin-left: -208px;
-    }
-    .learn__left-h1 {
-        font-size: 84px;
-    }
-    .learn__left-p {
-        font-size: 44px;
-    }
-    .nav__inner-button-burger {
-        width: 150px;
+    .writing .skills__grid-img2 {
         padding-left: 0;
-        margin-left: 100px;
     }
-    .nav__inner-button {
-        margin-left: -180px;
+    .about-us__numbers-item {
+        text-align: none;
+        padding-right: 240px;
     }
-    .nav__inner-logo-img {
+    .pricing-h2 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .section__inner {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media screen and (max-width:438px){
+    .learn__left-p {
         width: 200px;
     }
-    .skills__grid {
-        padding-left: 100px;
+    .learn__left-svg {
+        width: 40px;
+        padding-left: 0;
+        padding-top: 0;
     }
-    .skills__grid-item {
-        max-width: 1000px;
-        width: 1000px;
-        max-height: 1500px;
+    .nav__inner {
+        flex-wrap: nowrap;
     }
-    .skills__grid-img1 {
-        width: 500px;
-        margin-left: 200px;
+    .learn__left-button {
+        width: 200px;
     }
-    .skills__grid-img2 {
-        width: 500px;
-        margin-left: 200px;
+    .nav__inner-button-burger {
+        margin-left: 0;
     }
-    .skills__grid-img3 {
-        width: 500px;
-        margin-left: 200px;
-    }
-    .skills__grid-img4 {
-        width: 500px;
-        margin-left: 200px;
-    }
-    .skills__grid-content-p {
-        width: 600px;
+    .learn__right-img {
+        width: 200px;
     }
     .skills__grid-content-h3 {
-        padding-left: 0;
-        padding-left: 350px;
-        font-size: 50px;
+        font-size: 20px;
     }
-    .speaking .skills__grid-content-h3 {
-        padding-left: 350px;
+    .listening .skills__grid-content-button {
+        margin-bottom: 0;
+    }
+    .listening .skills__grid-content-h3 {
+        padding-top: 50px;
     }
     .skills__grid-content-p {
-        margin-left: 150px;
-        font-size: 26px;
+        font-size: 14px;
+    }
+    .speaking {
+        max-height: 2000px;
+    }
+    .writing {
+        max-height: 2000px;
+    }
+    .reading {
+        max-height: 2000px;
+    }
+    .listening {
+        max-height: 2000px;
     }
     .skills__grid-content-button {
-        margin-left: 325px;
+        width: 100px;
+        font-size: 12px;
     }
-    .speaking .skills__grid-content-button {
-        margin-left: 325px;
+    .about-us__numbers {
+        flex-wrap: wrap;
     }
-    .footer__hr {
-        width: 900px;
-        margin-left: -110px;
+    .about-us__left-p {
+        width: 250px;
+    }
+    .about-us__right-img {
+        width: 200px;
+    }
+    .pricing__item-img {
+        width: 250px;
+    }
+    .footer__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .footer__inner {
-        gap: 255px;
+        padding-left: 10px;
+        padding-bottom: 30px;
     }
-    .skills-h2 {
-        font-size: 60px;
+
+}
+@media screen and (max-width:380px){
+    .section__left-img {
+        width: 150px;
+    }
+    .section__right-h2 {
+        font-size: 28px;
+    }
+    .section__right-p {
+        font-size: 18px;
+    }
+    .section__right-form-button {
+        width: 150px;
+    }
+}
+@media screen and (max-width:323px){
+    .container {
+        padding: 0;
     }
     .skills__grid {
         grid-template-areas: 
@@ -829,10 +985,9 @@ h1, h2, h3, h4, h5, h6, p, li {
         "four";
         justify-content: space-evenly;
         align-items: stretch;
+        padding: 0 20px;
     }
-    .a-close {
-        margin-left: 1000px;
-        margin-top: -55px;
+    .about-us__inner {
+        padding-left: 50px;
     }
-    
 }
